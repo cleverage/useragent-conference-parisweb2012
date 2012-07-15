@@ -182,10 +182,49 @@ a { color: inherit }
 
 .impress-enabled .step.active { opacity: 1 }
 
+/*
+    This is for the "cover" slide of the theme. It looks like this :
+    <div class="step cover">
+        <h1><span class="useragents">Les User Agents,<span> <span class="mal">c'est le mal !</span></h1>
+        <p class="subtitle">Histoire et déchéance d'une plaie du Web</p>
+        <hr/>
+        <p class="author">Rudy Rigot</p>
+        <p class="company">Clever Age</p>
+        <p><img src="img/cleverage-theme/cleverage-logo.png"/></p>
+        <ul class="links">
+            <li class="left">
+                <ul>
+                    <li class="twitter">@rudyrigot</li>
+                    <li class="gmail">rudy.rigot@gmail.com</li>
+                </ul>
+            </li>
+            <li class="right">
+                <ul>
+                    <li class="wordpress">http://rudyonweb.net</li>
+                    <li class="linkedin">http://fr.linkedin.com/in/rudyrigot</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+*/
+.cover { text-align: center }
+.cover h1 { font-size: 80px }
+.cover h1 span { display:block }
+.cover p.subtitle { font-family: 'Droid Serif', serif ; font-size: 36px; padding-top: 60px }
+.cover hr { width: 300px ; margin-top: 70px }
+.cover .author { font-size: 24px }
+.cover .company { font-size: 20px }
+.cover .links { font-size: 20px ; margin-top: 20px }
+.cover .links .left { width: 50% ; float: left ; text-align: left }
+.cover .links .right { width: 50% ; float: right ; text-align: right }
+.cover .links .left li { padding-left: 35px ; background-repeat: no-repeat ; background-position: left center; }
+.cover .links .right li { padding-right: 35px ; background-repeat: no-repeat ; background-position: right center; }
 
-
-
-
+.cover .links .twitter { background-image: url('../img/cleverage-theme/twitter-logo.png') }
+.cover .links .linkedin { background-image: url('../img/cleverage-theme/linkedin-logo.png') }
+.cover .links .facebook { background-image: url('../img/cleverage-theme/facebook-logo.png') }
+.cover .links .wordpress { background-image: url('../img/cleverage-theme/wordpress-logo.png') }
+.cover .links .gmail { background-image: url('../img/cleverage-theme/gmail-logo.png') }
 
 /*  
     The last step is an overview.
