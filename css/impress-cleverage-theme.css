@@ -76,7 +76,8 @@ body {
 */
 b, strong { font-weight: bold }
 i, em { font-style: italic }
-a { color: inherit }
+a { color: inherit ; text-decoration: none }
+a:hover { text-decoration: underline }
 
 /*
     I introduce a new keyword i'm gonna need, "onlythisstep".
@@ -187,21 +188,25 @@ a { color: inherit }
     <div class="step cover">
         <h1><span class="useragents">Les User Agents,<span> <span class="mal">c'est le mal !</span></h1>
         <p class="subtitle">Histoire et déchéance d'une plaie du Web</p>
-        <hr/>
+        <hr>
         <p class="author">Rudy Rigot</p>
-        <p class="company">Clever Age</p>
-        <p><img src="img/cleverage-theme/cleverage-logo.png"/></p>
+        <div class="company">
+            <a href="http://www.clever-age.com" target="_blank">
+                <p>Clever Age</p>
+                <p><img src="img/cleverage-theme/cleverage-logo.png"/></p>
+            </a>
+        </div>
         <ul class="links">
             <li class="left">
                 <ul>
-                    <li class="twitter">@rudyrigot</li>
-                    <li class="gmail">rudy.rigot@gmail.com</li>
+                    <li class="twitter"><a href="http://www.twitter.com/rudyrigot" target="_blank">@rudyrigot</a></li>
+                    <li class="gmail"><a href="mailto:rudy.rigot@gmail.com" target="_blank">rudy.rigot@gmail.com</a></li>
                 </ul>
             </li>
             <li class="right">
                 <ul>
-                    <li class="wordpress">http://rudyonweb.net</li>
-                    <li class="linkedin">http://fr.linkedin.com/in/rudyrigot</li>
+                    <li class="wordpress"><a href="http://rudyonweb.net" target="_blank">RudyOnWeb.net</a></li>
+                    <li class="linkedin"><a href="http://fr.linkedin.com/in/rudyrigot" target="_blank">rudyrigot</a></li>
                 </ul>
             </li>
         </ul>
@@ -225,6 +230,16 @@ a { color: inherit }
 .cover .links .facebook { background-image: url('../img/cleverage-theme/facebook-logo.png') }
 .cover .links .wordpress { background-image: url('../img/cleverage-theme/wordpress-logo.png') }
 .cover .links .gmail { background-image: url('../img/cleverage-theme/gmail-logo.png') }
+
+/*
+    This is for the "title" slide of the theme. Example:
+    <div class="step title">
+        <p class="subtitle">C'est quoi une ziouzeur èdjentes ?</p>
+        <h2>Définitions</h2>
+    </div>
+*/
+.title .subtitle { margin-top: 300px ; font-family: 'Droid Serif' ; font-size: 24px ; font-style: italic }
+.title h2 { text-transform: uppercase }
 
 /*  
     The last step is an overview.

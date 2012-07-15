@@ -2,6 +2,33 @@
    This is for the specific User Agent presentation steps.
 */
 
+body.impress-enabled #quisuisje-1 #statue {
+    position: absolute;
+    top: -300px;
+    left: 500px;
+}
+body.impress-enabled #quisuisje-1 #statue img { height: 2181px }
+
+body.impress-not-supported #quisuisje-1 #statue { float: left; padding-right: 50px }
+
+body.impress-on-quisuisje-2 #quisuisje-1,
+body.impress-on-quisuisje-3 #quisuisje-1 {
+    opacity: 1;
+}
+
+body.impress-enabled #quisuisje-1 p { margin-right: 360px }
+body.impress-enabled #quisuisje-2 p { margin-right: 180px }
+body.impress-enabled #quisuisje-3 p { margin-top: 200px }
+
+
+
+
+
+
+
+
+
+
 /*
     And now we start to style each step separately.
     
