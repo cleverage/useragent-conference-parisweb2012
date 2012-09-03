@@ -2,10 +2,18 @@
    This is for the specific User Agent presentation steps.
 */
 
+img.arrow { display: none; }
+body.impress-enabled img.arrow {
+    display: block;
+    position: absolute;
+    height: 80px;
+}
+
 body.impress-enabled #quisuisje-1 #statue {
     position: absolute;
     top: -300px;
     left: 500px;
+    z-index: -10;
 }
 body.impress-enabled #quisuisje-1 #statue img { height: 2181px }
 
@@ -16,16 +24,53 @@ body.impress-on-quisuisje-3 #quisuisje-1 {
     opacity: 1;
 }
 
-body.impress-enabled #quisuisje-1 p { margin-right: 360px }
-body.impress-enabled #quisuisje-2 p { margin-right: 180px }
-body.impress-enabled #quisuisje-3 p { margin-top: 200px }
+body.impress-enabled #quisuisje-1 p { margin-right: 300px }
+body.impress-enabled #quisuisje-2 p { margin-right: 350px }
+body.impress-enabled #quisuisje-3 img { margin-top: 100px }
 
+body.impress-enabled #quisuisje-1 ul li { margin-bottom: 70px; }
+body.impress-enabled #quisuisje-1 ul li:first-child { margin-left: 130px; }
+body.impress-enabled #quisuisje-1 ul li:nth-child(2) { margin-left: -100px; }
+body.impress-enabled #quisuisje-1 ul li:nth-child(3) { margin-left: 0px; }
+body.impress-enabled #quisuisje-1 ul li:nth-child(4) { margin-left: 30px; }
 
+#quisuisje-1 ul li:first-child img {
+    -moz-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
+    top: 100px;
+    left: 100px;
+}
+#quisuisje-1 ul li:nth-child(2) img {
+    top: 245px;
+    left: 260px;
+}
+#quisuisje-1 ul li:nth-child(3) img {
+    -moz-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
+    top: 395px;
+    left: 200px;
+}
+#quisuisje-1 ul li:nth-child(4) img {
+    top: 580px;
+    left: 300px;
+}
 
+#quisuisje-2 p { font-size: 2em; text-align: center; }
+#quisuisje-2 p img {
+    -moz-transform: scale(-1,1);
+    -webkit-transform: scale(-1,1);
+    transform: scale(-1,1);
+    height: 100px;
+    top: -100px;
+    left: 250px;
+}
 
-
-
-
+#quisuisje-3 img { margin-left: 8px; }
+#quisuisje-3 ul { margin-left: 200px; }
+#quisuisje-3 ul li:first-child { margin-bottom: 20px; }
+#quisuisje-3 ul li:nth-child(2), #quisuisje-3 ul li:nth-child(3) { font-size: 0.6em; }
 
 
 
