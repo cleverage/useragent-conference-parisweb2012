@@ -1,4 +1,20 @@
 useragent-conference-parisweb2012
 =================================
 
-Conférence "Les User Agents, c'est le mal !" donnée par Rudy Rigot pour Paris Web 2012, basée sur impress.js
+Talk in French language given at Paris Web 2012 by Rudy Rigot, "Les User Agents, c'est le mal !" (User Agents are evil!), based on impress.js
+
+ABOUT CLEVER AGE
+----------------
+
+[Clever Age](http://www.clever-age.com) is the web company i work for, and who happens to trust me enough to have given me the opportunity to start our activity in New York City.
+
+It's based in France, although being now represented in Geneva and New York, and thrives to provide large clients with any web help they might need. It'd middle-sized, because growing big means losing control over quality; and it's populated with truly passionated web geeks (and yes, i inclide webdesigners in the word "geeks"!)
+
+Also, its focus towards bringing web quality to major brands drove it to start a "social" training institute, [Clever Institut](http://clever-institut.fr). Clever Age is also about to be launching an innovative tool empowering chief officers with understanding of their brand's global presence online.
+
+ABOUT IMPRESS.JS
+----------------
+
+This talk was made with [impress.js](http://bartaz.github.com/impress.js/), a really neat tool created by a dude named [Bartek Szopka](https://github.com/bartaz/).
+
+You'll get more info there: https://github.com/bartaz/impress.js/
