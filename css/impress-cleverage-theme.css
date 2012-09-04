@@ -170,7 +170,8 @@ a:hover { text-decoration: underline }
     ... and we enhance the styles for impress.js.
     Basically we remove the margin and make inactive steps a little bit transparent.
 */
-.impress-enabled .step {
+.impress-enabled .step,
+.impress-enabled .step.alwaysclear .notalwaysclear {
     margin: 0;
     opacity: 0.3;
 
@@ -182,6 +183,9 @@ a:hover { text-decoration: underline }
 }
 
 .impress-enabled .step.active { opacity: 1 }
+
+.impress-enabled .step.alwaysclear,
+.impress-enabled .step.active .notalwaysclear { opacity: 1 }
 
 /*
     This is for the "cover" slide of the theme. It looks like this :
@@ -252,10 +256,14 @@ a:hover { text-decoration: underline }
     We also make other steps visible and give them a pointer cursor using the
     `impress-on-` class.
 */
-.impress-on-overview .step {
+.impress-on-overview .step,
+.impress-on-overview .step.alwaysclear .notalwaysclear {
     opacity: 1;     
     cursor: pointer;
 }
+
+.impress-on-cover .step.alwaysclear { opacity: 0.3; }
+.impress-on-cover .step.alwaysclear .notalwaysclear { opacity: 1; }
 
 /*
     And as the last thing there is a workaround for quite strange bug.
