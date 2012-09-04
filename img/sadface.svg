@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="45.72mm" height="43.18mm" viewBox="0 0 4572 4318" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <g visibility="visible" id="MasterSlide_1_Default">
+  <desc>Master slide
+  </desc>
+  <rect fill="none" stroke="none" x="0" y="0" width="4572" height="4318"/>
+  <path fill="rgb(0,0,0)" stroke="none" d="M 2286,4317 L 0,4317 0,0 4571,0 4571,4317 2286,4317 Z"/>
+ </g>
+ <g visibility="visible" id="Slide_1_page1">
+  <g>
+   <path fill="rgb(0,0,0)" stroke="rgb(255,255,255)" id="Drawing_1_0" stroke-linejoin="round" d="M 2194,100 C 3382,100 4290,980 4290,2132 4290,3284 3382,4164 2194,4164 1006,4164 99,3284 99,2132 99,980 1006,100 2194,100 Z"/>
+   <path fill="rgb(0,0,0)" stroke="rgb(255,255,255)" id="Drawing_1_1" stroke-linejoin="round" d="M 1514,1294 C 1642,1294 1740,1388 1740,1512 1740,1636 1642,1731 1514,1731 1386,1731 1289,1636 1289,1512 1289,1388 1386,1294 1514,1294 Z"/>
+   <path fill="rgb(0,0,0)" stroke="rgb(255,255,255)" id="Drawing_1_2" stroke-linejoin="round" d="M 2871,1294 C 2999,1294 3097,1388 3097,1512 3097,1636 2999,1731 2871,1731 2743,1731 2646,1636 2646,1512 2646,1388 2743,1294 2871,1294 Z"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_1_3" stroke-linejoin="round" d="M 1044,3397 C 1783,3018 2606,3018 3345,3397"/>
+   <rect fill="none" stroke="none" x="100" y="100" width="4192" height="4065"/>
+  </g>
+ </g>
+</svg>
