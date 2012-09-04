@@ -9,22 +9,16 @@ body.impress-enabled img.arrow {
     height: 80px;
 }
 
-body.impress-enabled #quisuisje-1 #statue {
+body.impress-enabled #statue {
     position: absolute;
-    top: -300px;
+    top: -1050px;
     left: 500px;
     z-index: -10;
 }
-body.impress-enabled #quisuisje-1 #statue img { height: 2181px }
+body.impress-enabled #statue img { height: 2570px }
 
-body.impress-not-supported #quisuisje-1 #statue { float: left; padding-right: 50px }
+body.impress-not-supported #statue { float: left; padding-right: 50px }
 
-body.impress-on-quisuisje-2 #quisuisje-1,
-body.impress-on-quisuisje-3 #quisuisje-1 {
-    opacity: 1;
-}
-
-body.impress-enabled #quisuisje-1 p { margin-right: 300px }
 body.impress-enabled #quisuisje-2 p { margin-right: 350px }
 body.impress-enabled #quisuisje-3 img { margin-top: 100px }
 
@@ -37,6 +31,8 @@ body.impress-enabled #quisuisje-1 ul li:nth-child(4) { margin-left: 30px; }
 #quisuisje-1 ul li:first-child img {
     -moz-transform: scale(-1,1);
     -webkit-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
     transform: scale(-1,1);
     top: 100px;
     left: 100px;
@@ -48,23 +44,33 @@ body.impress-enabled #quisuisje-1 ul li:nth-child(4) { margin-left: 30px; }
 #quisuisje-1 ul li:nth-child(3) img {
     -moz-transform: scale(-1,1);
     -webkit-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
     transform: scale(-1,1);
     top: 395px;
     left: 200px;
 }
 #quisuisje-1 ul li:nth-child(4) img {
-    top: 580px;
-    left: 300px;
+    top: 430px;
+    left: 500px;
+    z-index: 10;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform:    rotate(-90deg);
+    -ms-transform:     rotate(-90deg);
+    -o-transform:      rotate(-90deg);
+    transform:         rotate(-90deg);
 }
 
 #quisuisje-2 p { font-size: 2em; text-align: center; }
 #quisuisje-2 p img {
-    -moz-transform: scale(-1,1);
-    -webkit-transform: scale(-1,1);
-    transform: scale(-1,1);
+    -webkit-transform: rotate(-190deg);
+    -moz-transform:    rotate(-190deg);
+    -ms-transform:     rotate(-190deg);
+    -o-transform:      rotate(-190deg);
+    transform:         rotate(-190deg);
     height: 100px;
-    top: -100px;
-    left: 250px;
+    top: 330px;
+    left: 480px;
 }
 
 #quisuisje-3 img { margin-left: 8px; }
