@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="317.5mm" height="76.2mm" viewBox="0 0 31750 7620" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <g visibility="visible" id="MasterSlide_1_Default">
+  <desc>Master slide
+  </desc>
+  <rect fill="none" stroke="none" x="0" y="0" width="31750" height="7620"/>
+  <path fill="rgb(0,0,0)" stroke="none" d="M 15875,7619 L 0,7619 0,0 31749,0 31749,7619 15875,7619 Z"/>
+ </g>
+ <g visibility="visible" id="Slide_1_page1">
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_1_0" stroke-linejoin="round" d="M 33020,1270 L 6779,1261"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_2_0" stroke-linejoin="round" d="M 33401,2286 L 5969,2286"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_3_0" stroke-linejoin="round" d="M 33147,3302 L 4874,3293"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_4_0" stroke-linejoin="round" d="M 33020,4318 L 3985,4309"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_5_0" stroke-linejoin="round" d="M 33147,5334 L 2842,5325"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" d="M 5969,2286 L 5159,1801"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_6_0" d="M 4850,1616 L 5159,1976 5313,1718 4850,1616 Z"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" d="M 4874,3297 L 4373,2378"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_7_0" d="M 4201,2062 L 4285,2529 4548,2385 4201,2062 Z"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" d="M 3985,4313 L 3565,2734"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_8_0" d="M 3472,2386 L 3443,2859 3733,2782 3472,2386 Z"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" d="M 6779,1265 L 5925,1025"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_9_0" d="M 5578,928 L 5971,1194 6052,905 5578,928 Z"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" d="M 2842,5329 L 2704,2907"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_10_0" d="M 2683,2548 L 2559,3006 2858,2989 2683,2548 Z"/>
+  </g>
+  <g>
+   <path fill="rgb(0,0,0)" stroke="rgb(255,255,255)" id="Drawing_11_0" stroke-linejoin="round" d="M 18501,2400 C 18376,1599 18959,843 19543,843 19727,837 19917,915 20073,1032 20223,669 20501,447 20813,447 21020,459 21240,567 21396,762 21509,441 21746,253 22002,253 22217,253 22414,390 22538,600 22682,384 22897,253 23122,253 23487,253 23796,591 23862,1065 24214,1197 24470,1626 24470,2118 24470,2268 24451,2412 24398,2550 24548,2790 24639,3087 24639,3390 24639,4076 24236,4655 23718,4754 23718,5411 23319,5927 22819,5927 22648,5927 22485,5864 22342,5744 22211,6323 21796,6731 21331,6731 20985,6731 20657,6488 20460,6104 20276,6251 20373,6338 19846,6338 19412,6338 19012,6035 18803,5543 18304,5531 18048,5141 18048,4649 18048,4421 18114,4214 18232,4043 18017,3899 17899,3614 17899,3288 17899,2829 18161,2451 18501,2400 L 18501,2400 Z"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_1" stroke-linejoin="round" d="M 18501,2400 C 18507,2475 18535,2559 18551,2628"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_2" stroke-linejoin="round" d="M 20073,1032 C 20145,1089 20233,1167 20292,1245"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_3" stroke-linejoin="round" d="M 21396,762 C 21371,825 21356,900 21340,972"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_4" stroke-linejoin="round" d="M 22538,600 C 22492,672 22467,768 22436,855"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_5" stroke-linejoin="round" d="M 23862,1065 C 23868,1119 23899,1239 23886,1266"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_6" stroke-linejoin="round" d="M 24398,2550 C 24345,2703 24273,2838 24174,2949"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_7" stroke-linejoin="round" d="M 23721,4754 C 23746,4511 23603,3911 23203,3686"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_8" stroke-linejoin="round" d="M 22342,5744 C 22367,5645 22376,5555 22382,5459"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_9" stroke-linejoin="round" d="M 20463,6104 C 20414,6026 20382,5936 20351,5843"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_10" stroke-linejoin="round" d="M 18803,5543 C 18863,5531 18922,5513 18978,5486"/>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_11_11" stroke-linejoin="round" d="M 18232,4043 C 18335,4121 18454,4190 18626,4163"/>
+   <rect fill="none" stroke="none" x="17900" y="254" width="6740" height="6478"/>
+  </g>
+ </g>
+</svg>

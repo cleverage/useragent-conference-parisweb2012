@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="72.39mm" height="57.15mm" viewBox="0 0 7239 5715" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <g visibility="visible" id="MasterSlide_1_Default">
+  <desc>Master slide
+  </desc>
+  <rect fill="none" stroke="none" x="0" y="0" width="7239" height="5715"/>
+  <path fill="rgb(0,0,0)" stroke="none" d="M 3619,5714 L 0,5714 0,0 7238,0 7238,5714 3619,5714 Z"/>
+ </g>
+ <g visibility="visible" id="Slide_1_page1">
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_1_0" stroke-linejoin="round" d="M 254,103 C 183,103 112,174 112,245 L 112,4961 C 112,5032 183,5104 254,5104 L 6970,5104 C 7041,5104 7113,5032 7113,4961 L 7113,245 C 7113,174 7041,103 6970,103 L 254,103 Z"/>
+   <rect fill="none" stroke="none" x="112" y="103" width="7001" height="5001"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_2_0" stroke-linejoin="round" d="M 1213,603 C 912,603 612,903 612,1204 L 612,4002 C 612,4302 912,4603 1213,4603 L 6011,4603 C 6311,4603 6612,4302 6612,4002 L 6612,1204 C 6612,903 6311,603 6011,603 L 1213,603 Z"/>
+   <rect fill="none" stroke="none" x="612" y="603" width="6001" height="4001"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_3_0" stroke-linejoin="round" d="M 5114,5588 L 2113,5588 2806,5087 4422,5087 5114,5588 Z"/>
+   <rect fill="none" stroke="none" x="5114" y="5588" width="3001" height="501"/>
+  </g>
+ </g>
+</svg>

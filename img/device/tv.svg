@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="83.82mm" height="76.2mm" viewBox="0 0 8382 7620" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <g visibility="visible" id="MasterSlide_1_Default">
+  <desc>Master slide
+  </desc>
+  <rect fill="none" stroke="none" x="0" y="0" width="8382" height="7620"/>
+  <path fill="rgb(0,0,0)" stroke="none" d="M 4191,7619 L 0,7619 0,0 8381,0 8381,7619 4191,7619 Z"/>
+ </g>
+ <g visibility="visible" id="Slide_1_page1">
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_1_0" stroke-linejoin="round" d="M 7155,2166 L 6655,1166"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_2_0" stroke-linejoin="round" d="M 7155,2166 L 7655,166"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_3_0" stroke-linejoin="round" d="M 7155,1666 C 7438,1666 7655,1883 7655,2166 7655,2449 7438,2666 7155,2666 6872,2666 6655,2449 6655,2166 6655,1883 6872,1666 7155,1666 Z"/>
+   <rect fill="none" stroke="none" x="6655" y="1666" width="1001" height="1001"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_4_0" stroke-linejoin="round" d="M 4255,7366 L 555,7366 555,6866 7955,6866 7955,7366 4255,7366 Z"/>
+   <rect fill="none" stroke="none" x="555" y="6866" width="7401" height="501"/>
+  </g>
+  <g>
+   <path fill="rgb(0,0,0)" stroke="rgb(255,255,255)" id="Drawing_5_0" stroke-linejoin="round" d="M 297,2166 C 226,2166 155,2237 155,2308 L 155,7024 C 155,7095 226,7167 297,7167 L 8113,7167 C 8184,7167 8256,7095 8256,7024 L 8256,2308 C 8256,2237 8184,2166 8113,2166 L 297,2166 Z"/>
+   <rect fill="none" stroke="none" x="155" y="2166" width="8101" height="5001"/>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_6_0" stroke-linejoin="round" d="M 1256,2666 C 955,2666 655,2966 655,3267 L 655,6065 C 655,6365 955,6666 1256,6666 L 6054,6666 C 6354,6666 6655,6365 6655,6065 L 6655,3267 C 6655,2966 6354,2666 6054,2666 L 1256,2666 Z"/>
+   <rect fill="none" stroke="none" x="655" y="2666" width="6001" height="4001"/>
+  </g>
+ </g>
+</svg>
