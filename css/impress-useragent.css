@@ -333,6 +333,23 @@ body.impress-enabled #chrome .arrow:nth-child(5) { left: 220px; }
 
 
 
+
+
+
+
+
+
+
+#overview {display: block;}
+body.impress-on-geckomisc #overview, body.impress-on-saddev2 #overview, body.impress-on-opera #overview, body.impress-on-letsgetback #overview,
+body.impress-on-webkit #overview, body.impress-on-safari #overview
+{ opacity: 0; }
+body.impress-enabled #overview p { text-align: center; }
+body.impress-enabled #overview p:first-child { font-size: 0.6em; margin-top: 650px; }
+body.impress-enabled #overview p:nth-child(2) { font-size: 0.3em; }
+
+
+
 /*
     And now we start to style each step separately.
     
