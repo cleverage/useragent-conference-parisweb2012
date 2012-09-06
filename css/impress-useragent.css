@@ -331,11 +331,87 @@ body.impress-enabled #chrome .arrow:nth-child(4) { left: 320px; }
 body.impress-enabled #chrome .arrow:nth-child(5) { left: 220px; }
 
 
+body.impress-on-safari #mobilebrowsers, body.impress-on-chrome #mobilebrowsers { opacity:0; }
+body.impress-on-mobilebrowsers #chrome, body.impress-on-mobilebrowsers #safari { opacity:1; }
+body.impress-enabled #mobilebrowsers ul.devices li { position: absolute; }
+body.impress-enabled #mobilebrowsers ul.devices li:first-child { top:-250px; left:800px; }
+body.impress-enabled #mobilebrowsers ul.devices li:first-child img { width: 65px; }
+body.impress-enabled #mobilebrowsers ul.devices li:nth-child(2) { top:-220px; left:880px; }
+body.impress-enabled #mobilebrowsers ul.devices li:nth-child(3) { top:-60px; left:950px; }
+body.impress-enabled #mobilebrowsers ul.devices li:nth-child(2) img,
+body.impress-enabled #mobilebrowsers ul.devices li:nth-child(3) img { width: 100px }
+body.impress-enabled #mobilebrowsers img.sadface { position: absolute; top:-60px; left:620px; width: 127px }
+#mobilebrowsers ul.arrows li { display: none; }
+body.impress-enabled #mobilebrowsers ul.arrows li { display: block; position: absolute; overflow: hidden; width: 100px; }
+body.impress-enabled #mobilebrowsers ul.arrows li:first-child {
+    top:15px; left:500px;
+    -webkit-transform: rotate(-25deg);
+    -moz-transform:    rotate(-25deg);
+    -ms-transform:     rotate(-25deg);
+    -o-transform:      rotate(-25deg);
+    transform:         rotate(-25deg);
+}
+body.impress-enabled #mobilebrowsers ul.arrows li:last-child {
+    top:-90px; left:760px;
+    -webkit-transform: rotate(155deg);
+    -moz-transform:    rotate(155deg);
+    -ms-transform:     rotate(155deg);
+    -o-transform:      rotate(155deg);
+    transform:         rotate(155deg);
+}
 
 
 
+body.impress-on-titre2 #mobilebrowsersua, body.impress-on-mosaic #mobilebrowsersua, body.impress-on-saddev1 #mobilebrowsersua,
+body.impress-on-happydev #mobilebrowsersua, body.impress-on-iequestion #mobilebrowsersua, body.impress-on-ie #mobilebrowsersua {opacity: 0;}
+body.impress-on-safari #mobilebrowsersua, body.impress-on-chrome #mobilebrowsersua, body.impress-on-mobilebrowsers #mobilebrowsersua { opacity:0; }
+body.impress-on-mobilebrowsersua #chrome, body.impress-on-mobilebrowsersua #safari, body.impress-on-mobilebrowsersua #mobilebrowsers { opacity:1; }
+body.impress-enabled #mobilebrowsersua ul li {position: absolute; font-size: 0.7em;}
+body.impress-on-mobilebrowsers #mobilebrowsersua ul li, body.impress-on-mobilebrowsersua #mobilebrowsersua ul li { color: red; }
+body.impress-on-mobilebrowsers #mobilebrowsersua ul li:after, body.impress-on-mobilebrowsersua #mobilebrowsersua ul li:after { content: ' ?';}
+body.impress-enabled #mobilebrowsersua ul li:first-child { top:-40px; left:820px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(2) { top:100px; left:640px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(3) { top:-60px; left:400px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(4) { top:300px; left:750px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(5) { top:370px; left:630px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(6) { top:-220px; left:650px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(7) { top:290px; left:300px; }
+body.impress-enabled #mobilebrowsersua ul li:nth-child(8) { top:0; left:0; }
 
 
+body.impress-on-safari #mobilebrowsershappy, body.impress-on-chrome #mobilebrowsershappy, body.impress-on-mobilebrowsers #mobilebrowsershappy,
+body.impress-on-mobilebrowsersua #mobilebrowsershappy { opacity:0; }
+body.impress-enabled #mobilebrowsershappy img.happyface { position: absolute; top:-60px; left:620px; width: 127px }
+body.impress-on-mobilebrowsershappy #chrome, body.impress-on-mobilebrowsershappy #safari, body.impress-on-mobilebrowsershappy #mobilebrowsers,
+body.impress-on-mobilebrowsershappy #mobilebrowsersua { opacity:1; }
+body.impress-on-mobilebrowsershappy #mobilebrowsersua ul li { color: green; }
+
+
+body.impress-on-operaua #mobilebrowsersua {opacity: 1;}
+body.impress-on-operaua #mobilebrowsersua ul li { color:green; }
+#operaua .logo img {width: 100px;}
+#operaua span.green {color: green; font-weight: bold;}
+body.impress-enabled #operaua .useragent { margin-bottom: 500px; }
+
+
+body.impress-on-mobilebrowsershappy #state, body.impress-on-operaua #state {opacity: 0;}
+body.impress-on-state #mobilebrowsersua, body.impress-on-state #operaua {opacity: 1;}
+body.impress-on-state #mobilebrowsersua ul li { color:green; }
+#state li {float: left; margin-top: 150px;}
+#state li:first-child {margin-left: 50px;}
+#state li:last-child {margin-left: 50px; margin-top: 170px;}
+
+body.impress-on-mobilebrowsershappy #opera10, body.impress-on-operaua #opera10, body.impress-on-state #opera10 {opacity: 0;}
+body.impress-on-opera10 #mobilebrowsersua, body.impress-on-opera10 #operaua, body.impress-on-opera10 #state {opacity: 1;}
+body.impress-on-opera10 #mobilebrowsersua ul li { color:green; }
+body.impress-enabled #opera10 .operaname { position:absolute; top:-275px; left:520px; }
+body.impress-enabled #opera10 .useragent { position: absolute; top:-130px; left:58px; }
+
+body.impress-on-opera10parsing #mobilebrowsersua, body.impress-on-opera10parsing #operaua, body.impress-on-opera10parsing #state,
+body.impress-on-opera10parsing #opera10 {opacity: 1;}
+body.impress-on-opera10parsing #mobilebrowsersua ul li { color:green; }
+body.impress-on-opera10parsing #operaua .red { color: red; }
+body.impress-on-opera10parsing #opera10 .red { color: red; }
 
 
 
