@@ -413,6 +413,34 @@ body.impress-on-opera10parsing #mobilebrowsersua ul li { color:green; }
 body.impress-on-opera10parsing #operaua .red { color: red; }
 body.impress-on-opera10parsing #opera10 .red { color: red; }
 
+body.impress-on-titre3 #speakingserver p {opacity:0;}
+
+body.impress-on-serverbis #server { opacity: 1; }
+body.impress-on-serverbis #server2details { opacity: 0; }
+
+body.impress-on-server2 #server, body.impress-on-server2 #speakingserver  {opacity:1;}
+body.impress-on-server2 #speakingserver p {opacity:0;}
+body.impress-enabled #server2 p {
+    font-size: 0.8em;
+    width: 400px;
+    text-align: center;
+    position: absolute; top: -310px; left: -110px;
+    font-family: Comic Sans MS;
+}
+body.impress-on-server #server2 p, body.impress-on-speakingserver #server2 p, body.impress-on-introducing #server2 p,
+body.impress-on-overview #server2 p, body.impress-on-safari #server2 p, body.impress-on-chrome #server2 p,
+body.impress-on-mobilebrowsers #server2 p, body.impress-on-mobilebrowsersua #server2 p, body.impress-on-mobilebrowsershappy #server2 p,
+body.impress-on-operaua #server2 p {opacity: 0;}
+
+body.impress-on-server2details #server2 {opacity:1;}
+body.impress-on-server2details #speakingserver p {opacity:0;}
+body.impress-enabled #server2details ul { margin-left: 350px; font-size: 0.8em; }
+body.impress-on-server2 #server2details ul, body.impress-on-server #server2details ul, body.impress-on-speakingserver #server2details ul,
+body.impress-on-introducing #server2details ul, body.impress-on-clientsheaders #server2details ul, body.impress-on-titre2 #server2details ul,
+body.impress-on-mosaic #server2details ul { opacity: 0; }
+
+body.impress-on-uxswitch #state { opacity: 1;}
+body.impress-on-uxswitch #speakingserver p {opacity:0;}
 
 
 
