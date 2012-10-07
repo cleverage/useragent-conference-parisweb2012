@@ -12,6 +12,15 @@ It's based in France, although being now represented in Geneva and New York, and
 
 Also, its focus towards bringing web quality to major brands drove it to start a "social" training institute, [Clever Institut](http://clever-institut.fr). Clever Age is also about to be launching an innovative tool empowering chief officers with understanding of their brand's global presence online.
 
+ABOUT THESE SLIDES
+----------------
+
+These slides were prepared to be given as a conference talk to the French speaking web event [Paris Web](http://paris-web.fr).
+
+The purpose is to get over the fact that User Agent parsing is a bad idea, and rather to try to understand why it is.
+
+For a better understanding of what i'm trying to express here, the video will be available some time soon (it might be already, by the time you read this) on [the talk's webpage](http://www.paris-web.fr/2012/conferences/les-user-agents-cest-le-mal.php).
+
 ABOUT IMPRESS.JS
 ----------------
 
