@@ -450,6 +450,73 @@ body.impress-enabled #uxswitch li:last-child { top: -145px; left: 425px;}
 body.impress-on-mobilebrowsershappy #uxswitch, body.impress-on-operaua #uxswitch, body.impress-on-state #uxswitch,
 body.impress-on-opera10 #uxswitch, body.impress-on-opera10parsing #uxswitch, body.impress-on-titre3 #uxswitch {opacity: 0;}
 
+body.impress-on-titre4 #titre3 {opacity: 1;}
+body.impress-on-titre4 #titre3 p.subtitle {opacity: 0.3;}
+body.impress-on-titre4 #titre3 h2 {opacity: 0.6;}
+body.impress-on-titre3 #titre4 {opacity: 0;}
+
+body.impress-enabled #frontendvousment p {text-align:center; font-size: 1.5em; margin-bottom: 200px;}
+
+body.impress-enabled #nokia p.question { position: absolute; left: 300px; }
+body.impress-enabled #nokia p.reponse { position: absolute; top:-250px; left:590px; font-family: 'Comic Sans MS' }
+body.impress-enabled #nokia img.nokia {
+    position: absolute; top: -50px; left: 600px;
+
+    -webkit-transform: rotate(15deg);
+    -moz-transform:    rotate(15deg);
+    -ms-transform:     rotate(15deg);
+    -o-transform:      rotate(15deg);
+    transform:         rotate(15deg);
+}
+body.impress-enabled #nokia img.bubble { position: absolute; top: -300px; left: 450px; width: 400px; }
+
+body.impress-enabled #nokiawrong img {position:absolute; top: -200px; left: 500px; height: 600px;}
+body.impress-on-nokiawrong #nokia {opacity: 1;}
+body.impress-on-nokia #nokiawrong, body.impress-on-frontendvousment #nokiawrong {opacity: 0;}
+
+body.impress-enabled #jackiechan {text-align: center;}
+body.impress-enabled #jackiechan img {width: 100%;}
+body.impress-on-frontendvousment #jackiechan, body.impress-on-nokia #jackiechan, body.impress-on-titre4 #jackiechan {opacity: 0}
+
+body.impress-enabled #quandmememoins p.first-child {font-size: 0.8em; margin-top: 50px; text-align: center;}
+body.impress-enabled #quandmememoins p.last-child {font-size: 0.6em; text-align: center; }
+body.impress-on-quandmememoins #frontendvousment {opacity: 1;}
+body.impress-on-titre4 #quandmememoins, body.impress-on-frontendvousment #quandmememoins, body.impress-on-nokia #quandmememoins,
+body.impress-on-nokiawrong #quandmememoins, body.impress-on-jackiechan #quandmememoins {opacity: 0;}
+
+body.impress-enabled #frontendsemoque p {text-align: center; font-size: 1.5em; margin-bottom: 200px; line-height: 1.3;}
+body.impress-on-frontendvousment #frontendsemoque, body.impress-on-nokia #frontendsemoque, body.impress-on-nokiawrong #frontendsemoque,
+body.impress-on-jackiechan #frontendsemoque, body.impress-on-quandmememoins #frontendsemoque,  {opacity: 0}
+
+#canplaytype p { font-family: 'Courier New'; font-size: 0.8em; text-align: center; }
+#canplaytype p span.func { color: red; }
+#canplaytype p span.string { color: green; }
+#canplaytype p span.variable { color: #1BE0C6; }
+body.impress-enabled #canplaytype p { margin-top: 300px; }
+body.impress-on-quandmememoins #canplaytype, body.impress-on-frontendsemoque #canplaytype { opacity:0; }
+body.impress-on-canplaytype #frontendsemoque {opacity: 1;}
+
+.canplaytyperesponse p {text-align: center; font-family: 'Courier New'; font-size: 1.6em; }
+body.impress-on-quandmememoins .canplaytyperesponse, body.impress-on-frontendsemoque .canplaytyperesponse,
+body.impress-on-canplaytype .canplaytyperesponse, body.impress-on-canplaytypeyes .canplaytyperesponse,
+body.impress-on-canplaytypeno .canplaytyperesponse {opacity: 0;}
+body.impress-on-canplaytypeyes #canplaytypeyes, body.impress-on-canplaytypeno #canplaytypeno {opacity: 1;}
+body.impress-on-canplaytypeyes #canplaytype, body.impress-on-canplaytypeno #canplaytype, body.impress-on-canplaytypemaybe #canplaytype,
+body.impress-on-canplaytypeprobably #canplaytype {opacity: 1;}
+
+body.impress-on-frontendsemoque2 .canplaytyperesponse, body.impress-on-frontendsemoque2 #frontendsemoque,
+body.impress-on-frontendsemoque2 #canplaytype { opacity: 1; }
+
+body.impress-enabled #quandmememoins2 p {font-size: 0.6em; margin-top: 60px; text-align: center;}
+body.impress-on-quandmememoins2 #canplaytype, body.impress-on-quandmememoins2 .canplaytyperesponse, body.impress-on-quandmememoins2 #frontendsemoque { opacity: 1; }
+body.impress-on-quandmememoins #quandmememoins2, body.impress-on-frontendsemoque #quandmememoins2, body.impress-on-canplaytype #quandmememoins2,
+body.impress-on-canplaytypeyes #quandmememoins2, body.impress-on-canplaytypeno #quandmememoins2, body.impress-on-canplaytypemaybe #quandmememoins2,
+body.impress-on-canplaytypeprobably #quandmememoins2, body.impress-on-frontendsemoque2 #quandmememoins2 {opacity: 0;}
+
+body.impress-enabled #solutionperenne p.last-child, body.impress-enabled #solutionperfectionniste p.last-child {margin-left: 100px;}
+
+
+
 
 
 #overview {display: block;}
