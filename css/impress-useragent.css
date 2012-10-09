@@ -516,6 +516,13 @@ body.impress-on-canplaytypeprobably #quandmememoins2, body.impress-on-frontendse
 body.impress-enabled #solutionperenne p.last-child, body.impress-enabled #solutionperfectionniste p.last-child {margin-left: 100px;}
 
 
+body.impress-enabled #kaelig { text-align: right; }
+body.impress-enabled #kaelig p.smaller { font-size: 0.8em; margin-top: 50px; }
+body.impress-enabled #kaelig img {position: absolute; left:0px; top:150px; height: 300px;}
+
+
+body.impress-enabled #merci p.first-child { text-align: right; margin-top: 250px; }
+body.impress-enabled #merci p.last-child { text-align: right; margin-top: 50px; }
 
 
 
@@ -523,10 +530,17 @@ body.impress-enabled #solutionperenne p.last-child, body.impress-enabled #soluti
 body.impress-on-geckomisc #overview, body.impress-on-saddev2 #overview, body.impress-on-opera #overview, body.impress-on-letsgetback #overview,
 body.impress-on-webkit #overview, body.impress-on-safari #overview
 { opacity: 0; }
-body.impress-enabled #overview p { text-align: center; }
-body.impress-enabled #overview p:first-child { font-size: 0.6em; margin-top: 650px; }
-body.impress-enabled #overview p:nth-child(2) { font-size: 0.3em; }
 
+body.impress-enabled #overview div.presentation { text-align: left; position: absolute; top:335px; left:-130px; }
+body.impress-enabled #overview div.presentation p.retrouver { font-size: 0.4em; }
+body.impress-enabled #overview div.presentation p.url { font-size: 0.3em; }
+
+body.impress-enabled #overview div.histoire { text-align: center; position: absolute; top:320px; left:210px; }
+body.impress-enabled #overview div.histoire p.source-ua { font-size: 0.4em; }
+body.impress-enabled #overview div.histoire p.url-ua { font-size: 0.3em; }
+
+body.impress-enabled #overview div.mercikaelig { text-align: right; position: absolute; top:335px; right:-130px; }
+body.impress-enabled #overview div.mercikaelig p { font-size: 0.4em; }
 
 
 /*
