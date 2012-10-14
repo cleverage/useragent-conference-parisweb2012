@@ -9,6 +9,7 @@ body.impress-enabled img.arrow {
     height: 80px;
 }
 
+/* Dealing with the #statue */
 body.impress-enabled #statue {
     position: absolute;
     top: -1050px;
@@ -24,6 +25,8 @@ body.impress-enabled #statue {
 body.impress-enabled #statue img { height: 2570px }
 
 body.impress-not-supported #statue { float: left; padding-right: 50px }
+
+/* Qui-suis-je part */
 
 body.impress-enabled #quisuisje-2 p { margin-right: 350px }
 body.impress-enabled #quisuisje-3 img { margin-top: 100px }
@@ -85,6 +88,8 @@ body.impress-enabled #quisuisje-1 ul li:nth-child(4) { margin-left: 30px; }
 #quisuisje-3 ul li:nth-child(2), #quisuisje-3 ul li:nth-child(3) { font-size: 0.6em; }
 
 
+/* #clients */
+
 body.impress-enabled #clients li { position: absolute; }
 body.impress-enabled #clients li:first-child { top: -200px; left: 230px;}
 body.impress-enabled #clients li:nth-child(2) { top: -230px; left: 500px;}
@@ -101,6 +106,8 @@ body.impress-on-speakingserver #statue
 {opacity: 0.3;}
 
 
+/* #clientsheaders */
+
 body.impress-enabled #clientsheaders p {
     -webkit-transform: rotate(-90deg);
     -moz-transform:    rotate(-90deg);
@@ -116,6 +123,9 @@ body.impress-enabled #clientsheaders p:nth-child(2) {
     left: -40px;
 }
 
+
+/* #server */
+
 body.impress-enabled #server img#serverimage { position: absolute; top: -300px; left: 50px; }
 body.impress-enabled #server img#httparrows { position: absolute; top: -80px; left: 0; }
 body.impress-not-supported #server img#httparrows, body.impress-not-supported #server p { display:none; }
@@ -123,6 +133,9 @@ body.impress-enabled #server p { position: absolute; top: 10px; left: 715px; fon
 
 body.impress-on-clientsheaders #server,
 body.impress-on-speakingserver #server { opacity: 1; }
+
+
+/* #speakingserver */
 
 body.impress-not-supported #speakingserver img { display: none; }
 body.impress-enabled #speakingserver img {
@@ -137,6 +150,8 @@ body.impress-enabled #speakingserver p {
 }
 
 
+/* #introducing */
+
 body.impress-on-introducing #statue { opacity: 0.3; }
 body.impress-on-clientsheaders #introducing, body.impress-on-server #introducing, body.impress-on-speakingserver #introducing {opacity: 0}
 
@@ -150,11 +165,16 @@ p.logo img { width: 200px; }
 p.useragent { font-family: "Courier New", serif ; text-align: center; font-size: 0.6em; }
 
 
+/* #mosaic & #netscape */
+
 body.impress-on-mosaic #netscape, body.impress-on-titre2 #netscape { opacity: 0; }
 body.impress-on-netscape #mosaic { opacity: 1; }
 body.impress-enabled #netscape p { margin-left: 450px; }
 
 body.impress-on-saddev1 #netscape, body.impress-on-saddev1 #mosaic { opacity: 1; }
+
+
+/* #saddev1 */
 
 body.impress-enabled #saddev1 { opacity: 0; }
 body.impress-on-saddev1 #saddev1 { opacity: 1; }
@@ -163,11 +183,15 @@ body.impress-enabled .face p { text-align: center; }
 body.impress-enabled .face p:nth-child(2) { margin-bottom: 300px }
 
 
+/* #happydev */
+
 body.impress-on-mosaic #happydev, body.impress-on-netscape #happydev, body.impress-on-saddev1 #happydev { opacity: 0; }
 body.impress-on-happydev #mosaic, body.impress-on-happydev #netscape { opacity: 1; }
 
 .parsingarrows {position: absolute; top: 280px; left: 375px;}
 
+
+/* #iequestion */
 
 #iequestion .logo img, #ie .logo img { width: 140px; }
 #iequestion p { margin-right: 450px; }
@@ -175,6 +199,8 @@ body.impress-on-happydev #mosaic, body.impress-on-happydev #netscape { opacity: 
 body.impress-on-mosaic #iequestion, body.impress-on-netscape #iequestion, body.impress-on-saddev1 #iequestion, body.impress-on-happydev #iequestion { opacity: 0; }
 body.impress-on-iequestion #mosaic, body.impress-on-iequestion #netscape, body.impress-on-iequestion #happydev { opacity: 1; }
 
+
+/* #ie */
 
 #ie p { margin-left: 450px;}
 #ie p.useragent { margin-bottom: 400px;}
@@ -191,6 +217,8 @@ body.impress-on-ie #mosaic, body.impress-on-ie #netscape, body.impress-on-ie #ha
     left: 580px;
 }
 
+/* #gecko */
+
 body.impress-on-mosaic #gecko, body.impress-on-netscape #gecko, body.impress-on-saddev1 #gecko, body.impress-on-happydev #gecko, body.impress-on-iequestion #gecko, body.impress-on-ie #gecko { opacity: 0; }
 body.impress-on-gecko #netscape { opacity: 1; }
 #gecko p { margin-right: 400px; margin-top: 200px; }
@@ -204,6 +232,8 @@ body.impress-on-gecko #netscape { opacity: 1; }
     left: 250px;
 }
 
+
+/* #geckomisc */
 
 body.impress-on-mosaic #geckomisc, body.impress-on-netscape #geckomisc, body.impress-on-saddev1 #geckomisc, body.impress-on-happydev #geckomisc, body.impress-on-iequestion #geckomisc, body.impress-on-ie #geckomisc, body.impress-on-gecko #geckomisc { opacity: 0; }
 body.impress-on-geckomisc #netscape, body.impress-on-geckomisc #gecko { opacity: 1; }
@@ -220,6 +250,8 @@ body.impress-on-geckomisc #netscape, body.impress-on-geckomisc #gecko { opacity:
 #geckomisc p.first { margin-top: 400px; }
 
 
+/* #saddev2 */
+
 body.impress-enabled #saddev2 { opacity: 0; }
 body.impress-on-saddev2 #saddev2 { opacity: 1; }
 body.impress-on-saddev2 #geckomisc, body.impress-on-saddev2 #gecko, body.impress-on-saddev2 #ie, body.impress-on-saddev2 #netscape { opacity: 1; }
@@ -233,6 +265,8 @@ body.impress-on-saddev2 #geckomisc, body.impress-on-saddev2 #gecko, body.impress
     transform:         rotate(135deg);
 }
 
+
+/* #opera */
 
 body.impress-enabled #opera { opacity: 0; }
 body.impress-on-opera #opera { opacity: 1; }
@@ -268,6 +302,8 @@ body.impress-on-opera #geckomisc, body.impress-on-opera #gecko, body.impress-on-
 body.impress-on-letsgetback #netscape, body.impress-on-letsgetback #gecko, body.impress-on-letsgetback #ie, body.impress-on-letsgetback #geckomisc { opacity: 1; }
 
 
+/* #webkit */
+
 body.impress-on-mosaic #webkit, body.impress-on-netscape #webkit, body.impress-on-saddev1 #webkit, body.impress-on-happydev #webkit,
 body.impress-on-iequestion #webkit, body.impress-on-ie #webkit, body.impress-on-gecko #webkit, body.impress-on-geckomisc #webkit,
 body.impress-on-saddev2 #webkit, body.impress-on-opera #webkit, body.impress-on-letsgetback #webkit  { opacity: 0; }
@@ -289,6 +325,8 @@ body.impress-enabled #webkit .webkit .arrow {
 }
 
 
+/* #safari */
+
 body.impress-on-mosaic #safari, body.impress-on-netscape #safari, body.impress-on-saddev1 #safari, body.impress-on-happydev #safari,
 body.impress-on-iequestion #safari, body.impress-on-ie #safari, body.impress-on-gecko #safari, body.impress-on-geckomisc #safari,
 body.impress-on-saddev2 #safari, body.impress-on-opera #safari, body.impress-on-letsgetback #safari, body.impress-on-webkit #safari { opacity: 0; }
@@ -306,6 +344,8 @@ body.impress-enabled #safari .useragent .arrow {
     transform:         rotate(150deg);
 }
 
+
+/* #chrome */
 
 body.impress-on-mosaic #chrome, body.impress-on-netscape #chrome, body.impress-on-saddev1 #chrome, body.impress-on-happydev #chrome,
 body.impress-on-iequestion #chrome, body.impress-on-ie #chrome, body.impress-on-gecko #chrome, body.impress-on-geckomisc #chrome,
@@ -330,6 +370,8 @@ body.impress-enabled #chrome .arrow:nth-child(3) { left: 420px; }
 body.impress-enabled #chrome .arrow:nth-child(4) { left: 320px; }
 body.impress-enabled #chrome .arrow:nth-child(5) { left: 220px; }
 
+
+/* #mobilebrowsers */
 
 body.impress-on-safari #mobilebrowsers, body.impress-on-chrome #mobilebrowsers { opacity:0; }
 body.impress-on-mobilebrowsers #chrome, body.impress-on-mobilebrowsers #safari { opacity:1; }
@@ -361,6 +403,7 @@ body.impress-enabled #mobilebrowsers ul.arrows li:last-child {
 }
 
 
+/* #mobilebrowsersua */
 
 body.impress-on-titre2 #mobilebrowsersua, body.impress-on-mosaic #mobilebrowsersua, body.impress-on-saddev1 #mobilebrowsersua,
 body.impress-on-happydev #mobilebrowsersua, body.impress-on-iequestion #mobilebrowsersua, body.impress-on-ie #mobilebrowsersua {opacity: 0;}
@@ -379,6 +422,8 @@ body.impress-enabled #mobilebrowsersua ul li:nth-child(7) { top:290px; left:300p
 body.impress-enabled #mobilebrowsersua ul li:nth-child(8) { top:0; left:0; }
 
 
+/* #mobilebrowsershappy */
+
 body.impress-on-safari #mobilebrowsershappy, body.impress-on-chrome #mobilebrowsershappy, body.impress-on-mobilebrowsers #mobilebrowsershappy,
 body.impress-on-mobilebrowsersua #mobilebrowsershappy { opacity:0; }
 body.impress-enabled #mobilebrowsershappy img.happyface { position: absolute; top:-60px; left:620px; width: 127px }
@@ -387,12 +432,16 @@ body.impress-on-mobilebrowsershappy #mobilebrowsersua { opacity:1; }
 body.impress-on-mobilebrowsershappy #mobilebrowsersua ul li { color: green; }
 
 
+/* #mobilebrowsersua */
+
 body.impress-on-operaua #mobilebrowsersua {opacity: 1;}
 body.impress-on-operaua #mobilebrowsersua ul li { color:green; }
 #operaua .logo img {width: 100px;}
 #operaua span.green {color: green; font-weight: bold;}
 body.impress-enabled #operaua .useragent { margin-bottom: 500px; }
 
+
+/* #operaua */
 
 body.impress-on-mobilebrowsershappy #state, body.impress-on-operaua #state {opacity: 0;}
 body.impress-on-state #mobilebrowsersua, body.impress-on-state #operaua {opacity: 1;}
@@ -401,11 +450,17 @@ body.impress-on-state #mobilebrowsersua ul li { color:green; }
 #state li:first-child {margin-left: 50px; margin-top: 170px;}
 #state li:last-child {margin-left: 50px;}
 
+
+/* #opera10 */
+
 body.impress-on-mobilebrowsershappy #opera10, body.impress-on-operaua #opera10, body.impress-on-state #opera10 {opacity: 0;}
 body.impress-on-opera10 #mobilebrowsersua, body.impress-on-opera10 #operaua, body.impress-on-opera10 #state {opacity: 1;}
 body.impress-on-opera10 #mobilebrowsersua ul li { color:green; }
 body.impress-enabled #opera10 .operaname { position:absolute; top:-275px; left:520px; }
 body.impress-enabled #opera10 .useragent { position: absolute; top:-130px; left:58px; }
+
+
+/* #opera10parsing */
 
 body.impress-on-opera10parsing #mobilebrowsersua, body.impress-on-opera10parsing #operaua, body.impress-on-opera10parsing #state,
 body.impress-on-opera10parsing #opera10 {opacity: 1;}
@@ -415,8 +470,14 @@ body.impress-on-opera10parsing #opera10 .red { color: red; }
 
 body.impress-on-titre3 #speakingserver p {opacity:0;}
 
+
+/* #serverbis */
+
 body.impress-on-serverbis #server { opacity: 1; }
 body.impress-on-serverbis #server2details { opacity: 0; }
+
+
+/* #server2 */
 
 body.impress-on-server2 #server, body.impress-on-server2 #speakingserver  {opacity:1;}
 body.impress-on-serverbis #speakingserver p, body.impress-on-server2 #speakingserver p {opacity:0;}
@@ -432,6 +493,9 @@ body.impress-on-overview #server2 p, body.impress-on-safari #server2 p, body.imp
 body.impress-on-mobilebrowsers #server2 p, body.impress-on-mobilebrowsersua #server2 p, body.impress-on-mobilebrowsershappy #server2 p,
 body.impress-on-operaua #server2 p {opacity: 0;}
 
+
+/* #server2details */
+
 body.impress-on-server2details #server2 {opacity:1;}
 body.impress-on-server2details #speakingserver p {opacity:0;}
 body.impress-enabled #server2details ul { margin-left: 350px; font-size: 0.8em; }
@@ -440,8 +504,12 @@ body.impress-on-introducing #server2details ul, body.impress-on-clientsheaders #
 body.impress-on-mosaic #server2details ul { opacity: 0; }
 
 
+/* #uxswitchbefore */
+
 body.impress-on-uxswitchbefore #speakingserver p {opacity:0;}
 body.impress-on-uxswitchbefore #uxswitch {opacity:0;}
+
+/* #uxswitch */
 
 body.impress-on-uxswitch #state, body.impress-on-uxswitchbefore #state { opacity: 1;}
 body.impress-enabled #uxswitch li {position:absolute;}
@@ -450,12 +518,20 @@ body.impress-enabled #uxswitch li:last-child { top: -145px; left: 425px;}
 body.impress-on-mobilebrowsershappy #uxswitch, body.impress-on-operaua #uxswitch, body.impress-on-state #uxswitch,
 body.impress-on-opera10 #uxswitch, body.impress-on-opera10parsing #uxswitch, body.impress-on-titre3 #uxswitch {opacity: 0;}
 
+/* #titre4 */
+
 body.impress-on-titre4 #titre3 {opacity: 1;}
 body.impress-on-titre4 #titre3 p.subtitle {opacity: 0.3;}
 body.impress-on-titre4 #titre3 h2 {opacity: 0.6;}
 body.impress-on-titre3 #titre4 {opacity: 0;}
 
+
+/* #frontendvousment */
+
 body.impress-enabled #frontendvousment p {text-align:center; font-size: 1.5em; margin-bottom: 200px;}
+
+
+/* #nokia */
 
 body.impress-enabled #nokia p.question { position: absolute; left: 300px; }
 body.impress-enabled #nokia p.reponse { position: absolute; top:-250px; left:590px; font-family: 'Comic Sans MS' }
@@ -470,13 +546,22 @@ body.impress-enabled #nokia img.nokia {
 }
 body.impress-enabled #nokia img.bubble { position: absolute; top: -300px; left: 450px; width: 400px; }
 
+
+/* #nokiawrong */
+
 body.impress-enabled #nokiawrong img {position:absolute; top: -200px; left: 500px; height: 600px;}
 body.impress-on-nokiawrong #nokia {opacity: 1;}
 body.impress-on-nokia #nokiawrong, body.impress-on-frontendvousment #nokiawrong {opacity: 0;}
 
+
+/* #jackiechan */
+
 body.impress-enabled #jackiechan {text-align: center;}
 body.impress-enabled #jackiechan img {width: 100%;}
 body.impress-on-frontendvousment #jackiechan, body.impress-on-nokia #jackiechan, body.impress-on-titre4 #jackiechan {opacity: 0}
+
+
+/* #quandmememoins */
 
 body.impress-enabled #quandmememoins p.first-child {font-size: 0.8em; margin-top: 50px; text-align: center;}
 body.impress-enabled #quandmememoins p.last-child {font-size: 0.6em; text-align: center; }
@@ -484,9 +569,15 @@ body.impress-on-quandmememoins #frontendvousment {opacity: 1;}
 body.impress-on-titre4 #quandmememoins, body.impress-on-frontendvousment #quandmememoins, body.impress-on-nokia #quandmememoins,
 body.impress-on-nokiawrong #quandmememoins, body.impress-on-jackiechan #quandmememoins {opacity: 0;}
 
+
+/* #frontendsemoque */
+
 body.impress-enabled #frontendsemoque p {text-align: center; font-size: 1.5em; margin-bottom: 200px; line-height: 1.3;}
 body.impress-on-frontendvousment #frontendsemoque, body.impress-on-nokia #frontendsemoque, body.impress-on-nokiawrong #frontendsemoque,
 body.impress-on-jackiechan #frontendsemoque, body.impress-on-quandmememoins #frontendsemoque,  {opacity: 0}
+
+
+/* #canplaytype */
 
 #canplaytype p { font-family: 'Courier New'; font-size: 0.8em; text-align: center; }
 #canplaytype p span.func { color: red; }
@@ -495,6 +586,9 @@ body.impress-on-jackiechan #frontendsemoque, body.impress-on-quandmememoins #fro
 body.impress-enabled #canplaytype p { margin-top: 300px; }
 body.impress-on-quandmememoins #canplaytype, body.impress-on-frontendsemoque #canplaytype { opacity:0; }
 body.impress-on-canplaytype #frontendsemoque {opacity: 1;}
+
+
+/* .canplaytyperesponse */
 
 .canplaytyperesponse p {text-align: center; font-family: 'Courier New'; font-size: 1.6em; }
 body.impress-on-quandmememoins .canplaytyperesponse, body.impress-on-frontendsemoque .canplaytyperesponse,
@@ -507,24 +601,35 @@ body.impress-on-canplaytypeprobably #canplaytype {opacity: 1;}
 body.impress-on-frontendsemoque2 .canplaytyperesponse, body.impress-on-frontendsemoque2 #frontendsemoque,
 body.impress-on-frontendsemoque2 #canplaytype { opacity: 1; }
 
+
+/* #quandmememoins2 */
+
 body.impress-enabled #quandmememoins2 p {font-size: 0.6em; margin-top: 60px; text-align: center;}
 body.impress-on-quandmememoins2 #canplaytype, body.impress-on-quandmememoins2 .canplaytyperesponse, body.impress-on-quandmememoins2 #frontendsemoque { opacity: 1; }
 body.impress-on-quandmememoins #quandmememoins2, body.impress-on-frontendsemoque #quandmememoins2, body.impress-on-canplaytype #quandmememoins2,
 body.impress-on-canplaytypeyes #quandmememoins2, body.impress-on-canplaytypeno #quandmememoins2, body.impress-on-canplaytypemaybe #quandmememoins2,
 body.impress-on-canplaytypeprobably #quandmememoins2, body.impress-on-frontendsemoque2 #quandmememoins2 {opacity: 0;}
 
+
+/* #solutionperenne */
+
 body.impress-enabled #solutionperenne p.last-child, body.impress-enabled #solutionperfectionniste p.last-child {margin-left: 100px;}
 
+
+/* #kaelig */
 
 body.impress-enabled #kaelig { text-align: right; }
 body.impress-enabled #kaelig p.smaller { font-size: 0.8em; margin-top: 50px; }
 body.impress-enabled #kaelig img {position: absolute; left:0px; top:150px; height: 300px;}
 
 
+/* #merci */
+
 body.impress-enabled #merci p.first-child { text-align: right; margin-top: 250px; }
 body.impress-enabled #merci p.last-child { text-align: right; margin-top: 50px; }
 
 
+/* #overview */
 
 #overview {display: block;}
 body.impress-on-geckomisc #overview, body.impress-on-saddev2 #overview, body.impress-on-opera #overview, body.impress-on-letsgetback #overview,
@@ -541,275 +646,3 @@ body.impress-enabled #overview div.histoire p.url-ua { font-size: 0.3em; }
 
 body.impress-enabled #overview div.mercikaelig { text-align: right; position: absolute; top:335px; right:-130px; }
 body.impress-enabled #overview div.mercikaelig p { font-size: 0.4em; }
-
-
-/*
-    And now we start to style each step separately.
-    
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styles separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
-
-#title {
-    padding: 0;
-}
-
-#title .try {
-    font-size: 64px;
-    position: absolute;
-    top: -0.5em;
-    left: 1.5em;
-    
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
-}
-
-#title h1 {
-    font-size: 190px;
-    
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
-}
-
-#title .footnote {
-    font-size: 32px;
-}
-
-/*
-    Second step is nothing special, just a text with a link, so it doesn't need
-    any special styling.
-    
-    Let's move to 'big thoughts' with centered text and custom font sizes.
-*/
-#big {
-    width: 600px;
-    text-align: center;
-    font-size: 60px;
-    line-height: 1;
-}
-
-#big b {
-    display: block;
-    font-size: 250px;
-    line-height: 250px;
-}
-
-#big .thoughts {
-    font-size: 90px;
-    line-height: 150px;
-}
-
-/*
-    'Tiny ideas' just need some tiny styling.
-*/
-#tiny {
-    width: 500px;
-    text-align: center;
-}
-
-/*
-    This step has some animated text ...
-*/
-#ing { width: 500px }
-
-/*
-    ... so we define display to `inline-block` to enable transforms and
-    transition duration to 0.5s ...
-*/
-#ing b {
-    display: inline-block;
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
-}
-
-/*
-    ... and we want 'positioning` word to move up a bit when the step gets
-    `present` class ...
-*/
-#ing.present .positioning {
-    -webkit-transform: translateY(-10px);
-    -moz-transform:    translateY(-10px);
-    -ms-transform:     translateY(-10px);
-    -o-transform:      translateY(-10px);
-    transform:         translateY(-10px);
-}
-
-/*
-    ... 'rotating' to rotate quater of a second later ...
-*/
-#ing.present .rotating {
-    -webkit-transform: rotate(-10deg);
-    -moz-transform:    rotate(-10deg);
-    -ms-transform:     rotate(-10deg);
-    -o-transform:      rotate(-10deg);
-    transform:         rotate(-10deg);
-
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay:    0.25s;
-    -ms-transition-delay:     0.25s;
-    -o-transition-delay:      0.25s;
-    transition-delay:         0.25s;
-}
-
-/*
-    ... and 'scaling' to scale down after another quater of a second.
-*/
-#ing.present .scaling {
-    -webkit-transform: scale(0.7);
-    -moz-transform:    scale(0.7);
-    -ms-transform:     scale(0.7);
-    -o-transform:      scale(0.7);
-    transform:         scale(0.7);
-
-    -webkit-transition-delay: 0.5s;
-    -moz-transition-delay:    0.5s;
-    -ms-transition-delay:     0.5s;
-    -o-transition-delay:      0.5s;
-    transition-delay:         0.5s;
-}
-
-/*
-    The 'imagination' step is again some boring font-sizing.
-*/
-
-#imagination {
-    width: 600px;
-}
-
-#imagination .imagination {
-    font-size: 78px;
-}
-
-/*
-    There is nothing really special about 'use the source, Luke' step, too,
-    except maybe of the Yoda background.
-    
-    As you can see below I've 'hard-coded' it in data URL.
-    That's not the best way to serve images, but because that's just this one
-    I decided it will be OK to have it this way.
-    
-    Just make sure you don't blindly copy this approach.
-*/
-#source {
-    width: 700px;
-    padding-bottom: 300px;
-    
-    /* Yoda Icon :: Pixel Art from Star Wars http://www.pixeljoint.com/pixelart/1423.htm */
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAMAAACwUBm+AAAAAXNSR0IArs4c6QAAAKtQTFRFsAAAvbWSLUUrLEQqY1s8UYJMqJ1vNTEgOiIdIzYhjIFVLhsXZ6lgSEIsP2U8JhcCVzMsSXZEgXdOO145XJdWOl03LzAYMk4vSXNExr+hwcuxRTs1Qmk+RW9Am49eFRANQz4pUoNMQWc+OSMDTz0wLBsCNVMxa2NBOyUDUoNNSnlEWo9VRGxAVzYFl6tXCggHbLNmMUIcHhwTXkk5f3VNRT8wUT8xAAAACQocRBWFFwAAAAF0Uk5TAEDm2GYAAAPCSURBVHja7d3JctNAFIZRMwRCCGEmzPM8z/D+T8bu/ptbXXJFdij5fMt2Wuo+2UgqxVmtttq5WVotLzBgwIABAwYMGDCn0qVqbo69psPqVpWx+1XG5iaavF8wYMCAAQMGDBgwi4DJ6Y6qkxB1HNlcN3a92gbR5P2CAQMGDBgwYMCAWSxMlrU+UY5yu2l9okfV4bAxUVbf7TJnAwMGDBgwYMCAAbMLMHeqbGR82Zy+VR1Ht81nVca6R+UdTLaU24Ruzd3qM/e4yjnAgAEDBgwYMGDA7AJMd1l/3NRdVGcj3eX/2WEhCmDGxnM7yqygu8XIPjJj8iN/MGDAgAEDBgwYMAuDGb8q0RGlLCHLv1t9qDKWn3vdNHVuEI6HPaxO9Jo3GDBgwIABAwYMmIXBdC9ShGgMk+XnkXUeuGcsP/e1+lhNnZsL/G5Vs3OAAQMGDBgwYMCAWSxMR3SzOmraG5atdy9wZKzb+vg16qyqe2FltbnAgAEDBgwYMGDALAxmTJSuN3WA76rnVca6GTnemGN1WoEBAwYMGDBgwIBZGMxUomy4+xO899V4LAg5Xnc2MGDAgAEDBgwYMGA218Wq+2K1LDqvY9xZu8zN8fICdM6btYABAwYMGDBgwIABMzfH0+pGU5afze2tXebmeAfVz+p8BQYMGDBgwIABAwbMPBzZ+oWmfJrln1273FhkbHzee9WWbw7AgAEDBgwYMGDALAKm43hcdctKgblcPamOhuXnXlY5Xs6bsW4FGyQCAwYMGDBgwIABswiYMceZKgvMo+h8mrHLTdn676rj+FEFoTtHd8MwOxEYMGDAgAEDBgyYRcBM5UhXqiymW3R3c9ARhWO/OmjqfjVZy+xEYMCAAQMGDBgwYBYG073OnCV0RFNhMhaOa9WfKmOB6XjHMN1tQmaAAQMGDBgwYMCA2VWY7vXjz1U4croAzgPztwIDBgwYMGDAgAEDZhswh035NBw59Dww3RgYMGDAgAEDBgwYMJuD6f4tXT7NUqfCdBvZLkxXdgQGDBgwYMCAAQNmt2DGj8WzwAfV/w7T/aq7mxwwYMCAAQMGDBgwuwqTOo7uTwTngflSzQ3TdaJvAwEDBgwYMGDAgAED5gSvgbyo5oHZ4Pc+gwEDBgwYMGDAgAEzhOm+5G0qTGaAAQMGDBgwYMCAAXNaMOcnls3tNwWm+zRzp54NDBgwYMCAAQMGDJh5YNL36k1TLuGvVq+qnKMbS5n7tulT9asCAwYMGDBgwIABA2ZumKuztLnjgQEDBgwYMGDAgNl5mH/4/ltKA6vBNAAAAABJRU5ErkJggg==);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-}
-
-#source q {
-    font-size: 60px;
-}
-
-/*
-    And the "it's in 3D" step again brings some 3D typography - just for fun.
-    
-    Because we want to position <span> elements in 3D we set transform-style to
-    `preserve-3d` on the paragraph.
-    It is not needed by webkit browsers, but it is in Firefox. It's hard to say
-    which behaviour is correct as 3D transforms spec is not very clear about it.
-*/
-#its-in-3d p {
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
-    -ms-transform-style:     preserve-3d;
-    -o-transform-style:      preserve-3d;
-    transform-style:         preserve-3d;
-}
-
-/*
-    Below we position each word separately along Z axis and we want it to transition
-    to default position in 0.5s when the step gets `present` class.
-    
-    Quite a simple idea, but lot's of styles and prefixes.
-*/
-#its-in-3d span,
-#its-in-3d b {
-    display: inline-block;
-    -webkit-transform: translateZ(40px);
-    -moz-transform:    translateZ(40px);
-    -ms-transform:     translateZ(40px);
-    -o-transform:      translateZ(40px);
-     transform:        translateZ(40px);
-            
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
-}
-
-#its-in-3d .have {
-    -webkit-transform: translateZ(-40px);
-    -moz-transform:    translateZ(-40px);
-    -ms-transform:     translateZ(-40px);
-    -o-transform:      translateZ(-40px);
-    transform:         translateZ(-40px);
-}
-
-#its-in-3d .you {
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
-}
-
-#its-in-3d .noticed {
-    -webkit-transform: translateZ(-40px);
-    -moz-transform:    translateZ(-40px);
-    -ms-transform:     translateZ(-40px);
-    -o-transform:      translateZ(-40px);
-    transform:         translateZ(-40px);
-}
-
-#its-in-3d .its {
-    -webkit-transform: translateZ(60px);
-    -moz-transform:    translateZ(60px);
-    -ms-transform:     translateZ(60px);
-    -o-transform:      translateZ(60px);
-    transform:         translateZ(60px);
-}
-
-#its-in-3d .in {
-    -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
-}
-
-#its-in-3d .footnote {
-    font-size: 32px;
-
-    -webkit-transform: translateZ(-10px);
-    -moz-transform:    translateZ(-10px);
-    -ms-transform:     translateZ(-10px);
-    -o-transform:      translateZ(-10px);
-    transform:         translateZ(-10px);
-}
-
-#its-in-3d.present span,
-#its-in-3d.present b {
-    -webkit-transform: translateZ(0px);
-    -moz-transform:    translateZ(0px);
-    -ms-transform:     translateZ(0px);
-    -o-transform:      translateZ(0px);
-    transform:         translateZ(0px);
-}
