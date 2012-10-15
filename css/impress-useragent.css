@@ -87,6 +87,8 @@ body.impress-enabled #quisuisje-1 ul li:nth-child(4) { margin-left: 30px; }
 #quisuisje-3 ul li:first-child { margin-bottom: 20px; }
 #quisuisje-3 ul li:nth-child(2), #quisuisje-3 ul li:nth-child(3) { font-size: 0.6em; }
 
+body.impress-on-cover #quisuisje-3, body.impress-on-quisuisje-1 #quisuisje-3, body.impress-on-quisuisje-2 #quisuisje-3 { opacity: 0; }
+
 
 /* #clients */
 
@@ -133,6 +135,8 @@ body.impress-enabled #server p { position: absolute; top: 10px; left: 715px; fon
 
 body.impress-on-clientsheaders #server,
 body.impress-on-speakingserver #server { opacity: 1; }
+
+body.impress-on-clientsheaders #titre2, body.impress-on-server #titre2, body.impress-on-speakingserver #titre2 {opacity: 0;}
 
 
 /* #speakingserver */
@@ -301,6 +305,9 @@ body.impress-on-opera #geckomisc, body.impress-on-opera #gecko, body.impress-on-
 
 body.impress-on-letsgetback #netscape, body.impress-on-letsgetback #gecko, body.impress-on-letsgetback #ie, body.impress-on-letsgetback #geckomisc { opacity: 1; }
 
+body.impress-on-geckomisc .lastcolumn, body.impress-on-saddev2 .lastcolumn, body.impress-on-opera .lastcolumn, body.impress-on-letsgetback .lastcolumn,
+body.impress-on-webkit .lastcolumn, body.impress-on-safari .lastcolumn { opacity: 0; }
+
 
 /* #webkit */
 
@@ -431,6 +438,13 @@ body.impress-on-mobilebrowsershappy #chrome, body.impress-on-mobilebrowsershappy
 body.impress-on-mobilebrowsershappy #mobilebrowsersua { opacity:1; }
 body.impress-on-mobilebrowsershappy #mobilebrowsersua ul li { color: green; }
 
+body.impress-on-mobilebrowsershappy .lastcolumn, body.impress-on-mobilebrowsershappy #titre3, body.impress-on-mobilebrowsershappy #titre4,
+body.impress-on-operaua .lastcolumn, body.impress-on-operaua #titre3, body.impress-on-operaua #titre4,
+body.impress-on-state .lastcolumn, body.impress-on-state #titre3, body.impress-on-state #titre4,
+body.impress-on-opera10 .lastcolumn, body.impress-on-opera10 #titre3, body.impress-on-opera10 #titre4,
+body.impress-on-opera10parsing .lastcolumn, body.impress-on-opera10parsing #titre3, body.impress-on-opera10parsing #titre4,
+body.impress-on-titre3 .lastcolumn, body.impress-on-serverbis #titre4
+{opacity: 0;}
 
 /* #mobilebrowsersua */
 
@@ -516,19 +530,23 @@ body.impress-enabled #uxswitch li {position:absolute;}
 body.impress-enabled #uxswitch li:first-child { top: 100px; left: 220px;}
 body.impress-enabled #uxswitch li:last-child { top: -145px; left: 425px;}
 body.impress-on-mobilebrowsershappy #uxswitch, body.impress-on-operaua #uxswitch, body.impress-on-state #uxswitch,
-body.impress-on-opera10 #uxswitch, body.impress-on-opera10parsing #uxswitch, body.impress-on-titre3 #uxswitch {opacity: 0;}
+body.impress-on-opera10 #uxswitch, body.impress-on-opera10parsing #uxswitch, body.impress-on-titre3 #uxswitch,
+body.impress-on-uxswitchbefore .lastcolumn, body.impress-on-uxswitch .lastcolumn {opacity: 0;}
 
 /* #titre4 */
 
-body.impress-on-titre4 #titre3 {opacity: 1;}
-body.impress-on-titre4 #titre3 p.subtitle {opacity: 0.3;}
-body.impress-on-titre4 #titre3 h2 {opacity: 0.6;}
+body.impress-on-titre4 #titre3, body.impress-on-frontendvousment #titre3 {opacity: 1;}
+body.impress-on-titre4 #titre3 p.subtitle, body.impress-on-frontendvousment #titre3 p.subtitle {opacity: 0.3;}
+body.impress-on-titre4 #titre3 h2, body.impress-on-frontendvousment #titre3 h2 {opacity: 0.6;}
 body.impress-on-titre3 #titre4 {opacity: 0;}
 
 
 /* #frontendvousment */
 
 body.impress-enabled #frontendvousment p {text-align:center; font-size: 1.5em; margin-bottom: 200px;}
+body.impress-on-frontendvousment #nokia, body.impress-on-frontendvousment #nokiawrong {opacity: 0;}
+body.impress-on-frontendvousment #frontendsemoque, body.impress-on-nokia #frontendsemoque, body.impress-on-nokiawrong #frontendsemoque,
+body.impress-on-jackiechan #frontendsemoque, body.impress-on-quandmememoins #frontendsemoque {opacity: 0;}
 
 
 /* #nokia */
@@ -576,6 +594,10 @@ body.impress-enabled #frontendsemoque p {text-align: center; font-size: 1.5em; m
 body.impress-on-frontendvousment #frontendsemoque, body.impress-on-nokia #frontendsemoque, body.impress-on-nokiawrong #frontendsemoque,
 body.impress-on-jackiechan #frontendsemoque, body.impress-on-quandmememoins #frontendsemoque,  {opacity: 0}
 
+body.impress-on-quandmememoins .lastrow, body.impress-on-frontendsemoque .lastrow, body.impress-on-canplaytype .lastrow,
+body.impress-on-canplaytypeyes .lastrow, body.impress-on-canplaytypeno .lastrow, body.impress-on-canplaytypemaybe .lastrow,
+body.impress-on-canplaytypeprobably .lastrow, body.impress-on-frontendsemoque2 .lastrow, body.impress-on-quandmememoins2 .lastrow {opacity: 0;}
+
 
 /* #canplaytype */
 
@@ -611,10 +633,15 @@ body.impress-on-canplaytypeyes #quandmememoins2, body.impress-on-canplaytypeno #
 body.impress-on-canplaytypeprobably #quandmememoins2, body.impress-on-frontendsemoque2 #quandmememoins2 {opacity: 0;}
 
 
-/* #solutionperenne */
+/* #solutionperenne & #solutionperfectionniste */
 
 body.impress-enabled #solutionperenne p.last-child, body.impress-enabled #solutionperfectionniste p.last-child {margin-left: 100px;}
 
+body.impress-on-solutionperenne #solutionperfectionniste, body.impress-on-solutionperenne #bbc, body.impress-on-solutionperenne #kaelig,
+body.impress-on-solutionperenne #merci {opacity: 0;}
+
+body.impress-on-solutionperfectionniste #bbc, body.impress-on-solutionperfectionniste #kaelig, body.impress-on-solutionperfectionniste #merci
+{opacity: 0;}
 
 /* #kaelig */
 
@@ -622,11 +649,15 @@ body.impress-enabled #kaelig { text-align: right; }
 body.impress-enabled #kaelig p.smaller { font-size: 0.8em; margin-top: 50px; }
 body.impress-enabled #kaelig img {position: absolute; left:0px; top:150px; height: 300px;}
 
+body.impress-on-bbc #kaelig, body.impress-on-bbc #merci {opacity: 0;}
 
 /* #merci */
 
 body.impress-enabled #merci p.first-child { text-align: right; margin-top: 250px; }
 body.impress-enabled #merci p.last-child { text-align: right; margin-top: 50px; }
+
+body.impress-on-kaelig #merci {opacity: 0;}
+body.impress-on-merci #kaelig {opacity: 1;}
 
 
 /* #overview */
