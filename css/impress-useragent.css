@@ -2,6 +2,46 @@
    This is for the specific User Agent presentation steps.
 */
 
+.hint {
+    display: none;
+    opacity: 0;
+    
+    position: absolute;
+    font-size: 0.4em;
+    padding: 10px 20px;
+    background: rgb(230,230,230);
+    color: #000;
+    width: 200px;
+    top: 450px;
+    left: 700px;
+    border-radius: 15px;
+    
+    -webkit-transform: rotate(-20deg);
+    -moz-transform:    rotate(-20deg);
+    -ms-transform:     rotate(-20deg);
+    -o-transform:      rotate(-20deg);
+    transform:         rotate(-20deg);
+    
+    
+    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
+    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
+    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
+    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
+    transition:         opacity 1s,         transform 0.5s 1s;
+}
+
+.impress-enabled .hint { display: block }
+
+.impress-on-cover .hint {
+    
+    opacity: 1;
+    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s 4.5s;
+    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s 4.5s;
+    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s 4.5s;
+    -o-transition:      opacity 1s 5s,      -o-transform 0.5s 4.5s;
+    transition:         opacity 1s 5s,         transform 0.5s 4.5s;
+}
+
 img.arrow { display: none; }
 body.impress-enabled img.arrow {
     display: block;
