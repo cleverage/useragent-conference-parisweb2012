@@ -1,0 +1,2 @@
+# Excluding the .c9revisions folder from Git to work properly with Cloud9
+.c9revisions
