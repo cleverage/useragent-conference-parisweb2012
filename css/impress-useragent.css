@@ -663,9 +663,9 @@ body.impress-on-merci #kaelig {opacity: 1;}
 /* #overview */
 
 #overview {display: block;}
-body.impress-on-geckomisc #overview, body.impress-on-saddev2 #overview, body.impress-on-opera #overview, body.impress-on-letsgetback #overview,
-body.impress-on-webkit #overview, body.impress-on-safari #overview
-{ opacity: 0; }
+body.impress-enabled #overview { opacity: 0; }
+
+body.impress-on-overview #overview {opacity: 1;}
 
 body.impress-enabled #overview div.presentation { text-align: left; position: absolute; top:335px; left:-130px; }
 body.impress-enabled #overview div.presentation p.retrouver { font-size: 0.4em; }
