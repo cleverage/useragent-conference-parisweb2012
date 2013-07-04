@@ -6,11 +6,11 @@ Talk in French language given at Paris Web 2012 by Rudy Rigot, "Les User Agents,
 ABOUT CLEVER AGE
 ----------------
 
-[Clever Age](http://www.clever-age.com) is the web company i work for, and who happens to trust me enough to have given me the opportunity to start our activity in New York City.
+[Clever Age](http://www.clever-age.com) is the web company i work for, and who happens to trust me enough to have given me the opportunity to start our activity in New York City (EDIT: today, the project have been cancelled, and I now work for a world-famous web innovation think-tank called [Zenexity](http://www.zenexity.com)).
 
-It's based in France, although being now represented in Geneva and New York, and thrives to provide large clients with any web help they might need. It'd middle-sized, because growing big means losing control over quality; and it's populated with truly passionated web geeks (and yes, i inclide webdesigners in the word "geeks"!)
+It's based in France, although being now represented in Geneva, and thrives to provide large clients with any web help they might need. It'd middle-sized, because growing big means losing control over quality; and it's populated with truly passionated web geeks (and yes, i inclide webdesigners in the word "geeks"!)
 
-Also, its focus towards bringing web quality to major brands drove it to start a "social" training institute, [Clever Institut](http://clever-institut.fr). Clever Age is also about to be launching an innovative tool empowering chief officers with understanding of their brand's global presence online.
+Also, its focus towards bringing web quality to major brands drove it to start a "social" training institute, [Clever Institut](http://clever-institut.fr).
 
 ABOUT THESE SLIDES
 ----------------
